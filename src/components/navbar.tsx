@@ -8,7 +8,7 @@ import { Button } from "./ui/button"
 import { NavigationMenu, NavigationMenuLink, NavigationMenuList } from "./ui/navigation-menu"
 // import ModeToggle from "../mode-toggle"
 import { SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from "./ui/sheet"
-//import ModeToggle from "./mode-toggle"
+import ModeToggle from "./mode-toggle"
 
 
 export function NavBar() {
@@ -53,7 +53,7 @@ export function NavBar() {
                                     <Button variant="outline" className="w-full">Projects</Button>
                                 </Link>
                             </DialogClose>
-                          {/*<ModeToggle />*/}  
+                        <ModeToggle />
                         </div>
                     </SheetContent>
                 </Dialog>
@@ -77,7 +77,7 @@ export function NavBar() {
                     <Link href="/projects">
                         <Button variant="ghost">Projects</Button>
                     </Link>
-                   {/*<ModeToggle />*/}
+                   <ModeToggle />
                 </div>
             </div>
         </div>
