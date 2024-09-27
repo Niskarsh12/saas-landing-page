@@ -4,7 +4,7 @@ import Balancer from "react-wrap-balancer";
 import Link from "next/link";
 
 // Icons
-import { Coins, ArrowRight } from "lucide-react";
+import { Mic, ArrowRight } from "lucide-react";
 
 type FeatureText = {
   icon: JSX.Element;
@@ -16,30 +16,38 @@ type FeatureText = {
 
 const featureText: FeatureText[] = [
   {
-    icon: <Coins className="h-6 w-6" />,
-    title: "Lorem Ipsum",
-    href: "/",
+    icon: <Mic className="h-6 w-6" />,
+    title: "Natural Voice Interaction",
+    href: "/natural-voice", // Link to the detailed page for this feature
     description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Experience seamless learning with our natural voice feature, allowing you to engage in real conversations, practice pronunciation, and receive instant feedback.",
     cta: "Learn More",
   },
   {
-    icon: <Coins className="h-6 w-6" />,
-    title: "Lorem Ipsum",
-    href: "/",
+    icon: <Mic className="h-6 w-6" />,
+    title: "Personalized Learning Paths",
+    href: "/personalized-paths",
     description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Tailor your learning experience with customized paths that adapt to your skills and goals, ensuring effective progress.",
+    cta: "Learn More",
+  },
+  {
+    icon: <Mic className="h-6 w-6" />,
+    title: "Interactive Lessons",
+    href: "/interactive-lessons",
+    description:
+      "Engage with interactive lessons that keep you motivated and help reinforce your knowledge through practical applications.",
     cta: "Learn More",
   },
 ];
 
 const singleFeatureText: FeatureText[] = [
   {
-    icon: <Coins className="h-6 w-6" />,
-    title: "Lorem Ipsum",
-    href: "/",
+    icon: <Mic className="h-6 w-6" />,
+    title: "Community Support",
+    href: "/community-support",
     description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Join a vibrant community of learners and instructors, providing support  as you embark on your language journey.",
     cta: "Learn More",
   },
 ];
@@ -51,12 +59,12 @@ const FeatureSet = () => {
         <div className="flex flex-col gap-6">
           <h3 className="text-4xl">
             <Balancer>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit
+              Elevate Your Language Learning Experience
             </Balancer>
           </h3>
           <h4 className="text-2xl font-light opacity-70">
             <Balancer>
-              Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+              Innovative features designed for effective and engaging learning
             </Balancer>
           </h4>
 

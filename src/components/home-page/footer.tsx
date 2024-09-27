@@ -23,8 +23,7 @@ export default function Footer() {
             </Link>
             <p>
               <Balancer>
-                brijr/components is a collection of Next.js, React, Typescript
-                components for building landing pages and websites.
+              EchoLingo is your personalized language learning assistant, helping you master languages effortlessly through tailored lessons and resources.
               </Balancer>
             </p>
             <div className="mb-6 flex flex-col gap-4 text-sm text-muted-foreground underline underline-offset-4 md:mb-0 md:flex-row">

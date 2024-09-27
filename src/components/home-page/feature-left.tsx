@@ -7,7 +7,7 @@ import * as Craft from "@/components/craft";
 import { Button } from "@/components/ui/button";
 
 // Asset imports
-import Placeholder from "@/public/placeholder.webp";
+import Placeholder from "@/public/echolingo2.jpg";
 
 const FeatureLeft = () => {
   return (
@@ -21,10 +21,9 @@ const FeatureLeft = () => {
           />
         </div>
         <div className="flex flex-col gap-6 py-8">
-          <h3 className="!my-0">Lorem ipsum dolor sit</h3>
+          <h3 className="!my-0">Personalized Learning Paths</h3>
           <p className="font-light leading-[1.4] opacity-70">
-            Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua.
+          Tailor your language learning experience with EchoLingo. Our AI analyzes your current skills and preferences to create a personalized study plan that evolves as you progress..
           </p>
           <div className="not-prose flex items-center gap-2">
             <Button className="w-fit" asChild>

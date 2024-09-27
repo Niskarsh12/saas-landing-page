@@ -7,17 +7,16 @@ import { Section, Container } from "@/components/craft";
 import { Button } from "@/components/ui/button";
 
 // Asset imports
-import Placeholder from "@/public/placeholder.webp";
+import Placeholder from "@/public/echolingo.png";
 
 const FeatureRight = () => {
   return (
     <Section>
       <Container className="grid items-stretch md:grid-cols-2 md:gap-12">
         <div className="flex flex-col gap-6 py-8">
-          <h3 className="!my-0">Lorem ipsum dolor sit</h3>
+          <h3 className="!my-0">Natural Voice Interaction</h3>
           <p className="font-light leading-[1.4] opacity-70">
-            Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua.
+          Experience immersive learning with EchoLingo's natural voice assistant. Engage in real-time conversations and practice pronunciation with AI-driven feedback, making language learning feel more intuitive and interactive.
           </p>
           <div className="not-prose flex items-center gap-2">
             <Button className="w-fit" asChild>

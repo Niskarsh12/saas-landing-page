@@ -11,7 +11,7 @@ import { Section, Container } from "@/components/craft";
 import { Button } from "../ui/button";
 
 // Asset imports
-import Placeholder from "@/public/placeholder.webp";
+import Placeholder from "@/public/echolingo1.jpg";
 
 const Hero = () => {
   return (
@@ -24,20 +24,20 @@ const Hero = () => {
             size={"sm"}
             variant={"outline"}
           >
-            <Link className="not-prose" href="https://9d8.dev">
-              Lorem ipsum dolor sit amet <ArrowRight className="w-4" />
+            <Link className="not-prose" href="https://getwaitlist.com/waitlist/20772">
+            Join the EchoLingo Waitlist<ArrowRight className="w-4" />
             </Link>
           </Button>
           <h1>
             <Balancer>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            Unlock Your Language Potential with EchoLingo!
             </Balancer>
           </h1>
           <h3 className="text-muted-foreground">
             <Balancer>
-              Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Your personalized learning assistant for mastering languages effortlessly.  
+              Get ready to learn Japanese, French, Spanish, and more with tailored lessons and resources.
+           
             </Balancer>
           </h3>
           <div className="not-prose my-8 h-96 w-full overflow-hidden rounded-lg border md:h-[480px] md:rounded-xl">

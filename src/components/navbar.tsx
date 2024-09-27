@@ -22,7 +22,7 @@ export function NavBar() {
                     </SheetTrigger>
                     <SheetContent side="left">
                         <SheetHeader>
-                            <SheetTitle>fabrika.</SheetTitle>
+                            <SheetTitle>EchoLingo</SheetTitle>
                             <SheetDescription>
                                 Scale and launch products with expert developers, on-demand, at a flat monthly fee
                             </SheetDescription>
@@ -40,17 +40,17 @@ export function NavBar() {
                             </DialogClose>
                             <DialogClose asChild>
                                 <Link href="/automation">
-                                    <Button variant="outline" className="w-full">Automation</Button>
+                                    <Button variant="outline" className="w-full">Features</Button>
                                 </Link>
                             </DialogClose>
                             <DialogClose asChild>
                                 <Link href="/blog">
-                                    <Button variant="outline" className="w-full">Blog</Button>
+                                    <Button variant="outline" className="w-full">Testimonial</Button>
                                 </Link>
                             </DialogClose>
                             <DialogClose asChild>
                                 <Link href="/projects">
-                                    <Button variant="outline" className="w-full">Projects</Button>
+                                    <Button variant="outline" className="w-full">Contact Us</Button>
                                 </Link>
                             </DialogClose>
                         <ModeToggle />
@@ -60,7 +60,7 @@ export function NavBar() {
                 <NavigationMenu>
                     <NavigationMenuList className="max-[825px]:hidden ">
                         <Link href="/" className="pl-2">
-                            <h1 className="font-bold">curateAi</h1>
+                            <h1 className="font-bold">echoLingo</h1>
                         </Link>
                     </NavigationMenuList>
                 </NavigationMenu>
@@ -69,13 +69,13 @@ export function NavBar() {
                         <Button variant="ghost">Software</Button>
                     </Link>
                     <Link href="/automation">
-                        <Button variant="ghost">Automation</Button>
+                        <Button variant="ghost">Features</Button>
                     </Link>
                     <Link href="/blog">
-                        <Button variant="ghost">Blog</Button>
+                        <Button variant="ghost">Testimonial</Button>
                     </Link>
                     <Link href="/projects">
-                        <Button variant="ghost">Projects</Button>
+                        <Button variant="ghost">Contact Us</Button>
                     </Link>
                    <ModeToggle />
                 </div>
